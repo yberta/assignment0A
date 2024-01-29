@@ -1,0 +1,25 @@
+Request Headers
+User-Agent: PostmanRuntime/7.36.1 -- Lets servers and network peers identify application, OS, etc.
+Accept: */* -- Indicates which content types the client is able to understand
+Postman-Token: c564042d-3497-4799-a21a-fcfacbb6e30b -- text string
+Host: www.googleapis.com -- specifies the host/port number of server where request is sent to.
+Accept-Encoding: gzip, deflate, br -- indicates the content encoding that client can understand
+Connection: keep-alive -- allows sender to specify options desired for particular connection. Must not be
+communicated by proxies over other connections.
+
+
+Response Headers
+Content-Type: application/json; charset=UTF-8 -- Provides client with actual content type of returned content
+Vary: Origin -- gives cache-servers of providers indication that user-agent also must be considered.
+Vary: X-Origin
+Vary: Referer
+Content-Encoding: gzip -- compresses media type
+Date: Mon, 29 Jan 2024 00:28:09 GMT
+Server: ESF  -- software used by origin server
+Cache-Control: private -- specify browser caching policies in client request and server responses
+X-XSS-Protection: 0 -- cross-site scripting
+X-Frame-Options: SAMEORIGIN -- indicate whether a browser should be allowed to render page in frame.
+X-Content-Type-Options: nosniff -- indicates that the MIME types advertised in content-type headers to be followed
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000 -- allows server to indicate another network location
+to be used as authoritative.
+Transfer-Encoding: chunked -- applied to message between two nodes.
